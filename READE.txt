@@ -13,3 +13,8 @@ The definition of that grammer is reproduced here:
 <factor> => ( <expression> ) | identifier
  
 <identifier> => [A-Za-z].
+
+
+
+
+input1.txt is a sample passing string: a*b+c!
