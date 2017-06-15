@@ -1,0 +1,15 @@
+BNFDemoParser is a simple java program that prompts for
+input files and then checks if the text in the file matches 
+the specified grammer below, defined in Backus-Naur Form (hence BNF).
+
+The definition of that grammer is reproduced here:
+
+<sentence> => <expression>!
+ 
+<expression> => <term> { (+|-) <term>}
+ 
+<term> => <factor> {(*|/) <factor>}
+
+<factor> => ( <expression> ) | identifier
+ 
+<identifier> => [A-Za-z].
